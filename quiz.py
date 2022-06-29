@@ -88,8 +88,8 @@ class Quiz:
 
 	def display_title(self):
 
-		title = Label(gui, text="Geeks for Geeks QUIZ",
-		width=50, bg="green",fg="white", font=("ariel", 20, "bold"))
+		title = Label(gui, text="QUIZ",
+		width=50, bg="blue",fg="white", font=("ariel", 20, "bold"))
 
 		title.place(x=0, y=2)
 
